@@ -1,16 +1,17 @@
-var createError = require("http-errors");
-var express = require("express");
-var path = require("path");
-var cookieParser = require("cookie-parser");
-var logger = require("morgan");
+const createError = require("http-errors");
+const express = require("express");
+const path = require("path");
+const cookieParser = require("cookie-parser");
+const logger = require("morgan");
 const dotenv = require("dotenv");
-var indexRouter = require("./routes/index");
-var carsRouter = require("./routes/cars");
+const indexRouter = require("./routes/index");
+const carsRouter = require("./routes/cars");
 const connect = require("./connection");
-var app = express();
+
+const app = express();
 dotenv.config();
 connect();
-
+//console.log(generate());
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jade");

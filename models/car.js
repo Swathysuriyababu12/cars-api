@@ -5,7 +5,7 @@ const CarSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    onroadprice: {
+    price: {
       type: Number,
       required: true,
     },
@@ -15,6 +15,7 @@ const CarSchema = new mongoose.Schema(
     },
     color: {
       type: String,
+      enum: ["Black", "Ivory", "Silver"],
       required: true,
     },
     transmission: {
@@ -22,12 +23,16 @@ const CarSchema = new mongoose.Schema(
       enum: ["Automatic", "Manual", "Semi-Automatic"],
       required: true,
     },
-    seats: {
-      type: Number,
+    year: {
+      type: String,
       required: true,
     },
-    desc: {
+    type: {
       type: String,
+      required: true,
+    },
+    mileage: {
+      type: Number,
       required: true,
     },
     imageUrl: {

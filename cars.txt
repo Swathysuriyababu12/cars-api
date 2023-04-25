@@ -1,0 +1,154 @@
+Mercedes Benz
+Chevrolet
+Bentley
+Ford
+Jaguar
+Tesla
+Audi
+Kia
+Maserati
+Porshe
+Lamborghini
+Honda
+Volkswagen
+Ferrari
+Rolls Royce
+Bmw
+Toyota
+Hyundai
+Bugatti
+Fiat
+Tesla
+Nissan
+
+
+
+
+[
+  {
+    name: 'Chevrolet',
+    price: 1542183,
+    model: 'CX-9',
+    color: 'green',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Crew Cab Pickup',
+    mileage: 294,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Chevrolet1.png.png',
+    _id: new ObjectId("64481c0e259d8d93c4dd6f60")
+  }
+]
+[
+  {
+    name: 'Chevrolet',
+    price: 1542183,
+    model: 'CX-9',
+    color: 'green',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Crew Cab Pickup',
+    mileage: 294,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Chevrolet1.png.png',
+    _id: new ObjectId("64481c0e259d8d93c4dd6f60")
+  },
+  {
+    name: 'Chevrolet',
+    price: 1897422,
+    model: 'Model S',
+    color: 'ivory',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Convertible',
+    mileage: 444,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Chevrolet2.png.png',
+    _id: new ObjectId("64481c0e259d8d93c4dd6f61")
+  }
+]
+[
+  {
+    name: 'Chevrolet',
+    price: 1542183,
+    model: 'CX-9',
+    color: 'green',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Crew Cab Pickup',
+    mileage: 294,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Chevrolet1.png.png',
+    _id: new ObjectId("64481c0e259d8d93c4dd6f60")
+  },
+  {
+    name: 'Chevrolet',
+    price: 1897422,
+    model: 'Model S',
+    color: 'ivory',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Convertible',
+    mileage: 444,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Chevrolet2.png.png',
+    _id: new ObjectId("64481c0e259d8d93c4dd6f61")
+  },
+  {
+    name: 'Mercedes_Benz',
+    price: 1438838,
+    model: 'Land Cruiser',
+    color: 'plum',
+    transmission: 'Automatic',
+    year: '2022',
+    type: 'Cargo Van',
+    mileage: 892,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Mercedes_Benz1.png.png',
+    _id: new ObjectId("64481c11259d8d93c4dd6f62")
+  }
+]
+[
+  {
+    name: 'Chevrolet',
+    price: 1542183,
+    model: 'CX-9',
+    color: 'green',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Crew Cab Pickup',
+    mileage: 294,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Chevrolet1.png.png',
+    _id: new ObjectId("64481c0e259d8d93c4dd6f60")
+  },
+  {
+    name: 'Chevrolet',
+    price: 1897422,
+    model: 'Model S',
+    color: 'ivory',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Convertible',
+    mileage: 444,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Chevrolet2.png.png',
+    _id: new ObjectId("64481c0e259d8d93c4dd6f61")
+  },
+  {
+    name: 'Mercedes_Benz',
+    price: 1438838,
+    model: 'Land Cruiser',
+    color: 'plum',
+    transmission: 'Automatic',
+    year: '2022',
+    type: 'Cargo Van',
+    mileage: 892,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446731/cars/Mercedes_Benz1.png.png',
+    _id: new ObjectId("64481c11259d8d93c4dd6f62")
+  },
+  {
+    name: 'Mercedes_Benz',
+    price: 417568,
+    model: '911',
+    color: 'teal',
+    transmission: 'Manual',
+    year: '2022',
+    type: 'Hatchback',
+    mileage: 209,
+    imageUrl: 'https://res.cloudinary.com/dwustzgek/image/upload/v1682446732/cars/Mercedes_Benz2.png.png',
+    _id: new ObjectId("64481c11259d8d93c4dd6f63")
+  }
+]
