@@ -104,22 +104,27 @@ const insertmany = async (req, res) => {
 
             // Add the new car to the cars array
             cars.push(newCar);
+            console.log(cars);
+            if (cars.length === 4) {
+              const insertedCars = Car.insertMany(cars);
+              res.json(insertedCars);
+            }
           }
         }
       );
     }
   });
-
+  console.log(cars);
   const insert = async () => {
     try {
       console.log(cars);
       const insertedCars = await Car.insertMany(cars);
-      res.send(insertedCars);
+      res.json(insertedCars);
     } catch (error) {
       res.status(500).json({ message: error.message });
     }
   };
-  insert();
+
   //const cars = generateCars();
 };
 module.exports = { createCar, allcars, getByName, insertmany };
