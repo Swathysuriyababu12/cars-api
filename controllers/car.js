@@ -2,11 +2,13 @@ const Car = require("../models/car");
 //const generateCars = require("./faker");
 const cloudinary = require("cloudinary").v2;
 const { faker } = require("@faker-js/faker");
+const dotenv = require("dotenv");
+dotenv.config();
 
 cloudinary.config({
-  cloud_name: "dwustzgek",
-  api_key: "497382222751667",
-  api_secret: "GosHkI3KZwIinrFpv7RjRzk0bsU",
+  cloud_name: process.env.cloud_name,
+  api_key: process.env.api_key,
+  api_secret: process.env.api_secret,
 });
 
 const createCar = async (req, res) => {
@@ -104,7 +106,7 @@ const insertmany = async (req, res) => {
 
             // Add the new car to the cars array
             cars.push(newCar);
-            console.log(cars);
+            // console.log(cars);
             if (cars.length === 4) {
               const insertedCars = Car.insertMany(cars);
               res.json(insertedCars);
@@ -114,16 +116,6 @@ const insertmany = async (req, res) => {
       );
     }
   });
-  console.log(cars);
-  const insert = async () => {
-    try {
-      console.log(cars);
-      const insertedCars = await Car.insertMany(cars);
-      res.json(insertedCars);
-    } catch (error) {
-      res.status(500).json({ message: error.message });
-    }
-  };
 
   //const cars = generateCars();
 };
